@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* Перший рівень списку - крапки */
+.fr-view ol {
+  list-style-type: disc;
+}
+
+/* Другий рівень списку - дефіси */
+.fr-view ol ol {
+  list-style-type: dash;
+}
+
+/* Стиль для підпису таблиці */
+caption {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+}
